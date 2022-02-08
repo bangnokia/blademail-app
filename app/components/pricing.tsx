@@ -16,7 +16,7 @@ export default function Pricing() {
                             <span className="text-4xl font-extrabold text-gray-900">$0</span>
                             <span className="text-base font-medium text-gray-500">/year</span>
                         </p>
-                        <a href="#" className="mt-8 block w-full bg-gray-500 border border-transparent rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-rose-700 transition-colors">Download</a>
+                        <a href="#" className="mt-8 block w-full bg-gray-500 border border-transparent rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-rose-500 transition-colors">Download</a>
                     </div>
                     <div className="pt-6 pb-8 px-6">
                         <h3 className="text-sm font-medium text-gray-900 tracking-wide uppercase">What's included</h3>
