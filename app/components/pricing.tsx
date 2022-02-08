@@ -44,7 +44,6 @@ export default function Pricing() {
                         <ul className="mt-6 space-y-4">
                             <FeatureItem>Simple email preview</FeatureItem>
                             <FeatureItem>Catching all local emails</FeatureItem>
-                            <FeatureItem>Active on unlimited computers</FeatureItem>
                             <FeatureItem>Dead links checker</FeatureItem>
                             <FeatureItem>Spam score report</FeatureItem>
                             <FeatureItem>Commercial use</FeatureItem>
