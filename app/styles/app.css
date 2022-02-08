@@ -1315,6 +1315,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(199 210 254 / var(--tw-text-opacity));
 }
 
+.text-rose-300 {
+  --tw-text-opacity: 1;
+  color: rgb(253 164 175 / var(--tw-text-opacity));
+}
+
 .text-opacity-40 {
   --tw-text-opacity: 0.4;
 }

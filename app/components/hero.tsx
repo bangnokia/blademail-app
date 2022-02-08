@@ -47,7 +47,7 @@ export default function Hero() {
                             <div className="flex items-end flex-wrap mt-4 sm:mt-0 space-x-5">
                                 <button
                                     type="submit"
-                                    className="block w-full md:w-auto rounded-md border border-transparent px-5 py-3 bg-rose-500 text-base font-medium text-white shadow hover:bg-rose-600 focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-2 sm:px-10"
+                                    className="block w-full transition-colors md:w-auto rounded-md border border-transparent px-5 py-3 bg-rose-500 text-base font-medium text-white shadow hover:bg-rose-600 focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-2 sm:px-10"
                                 >
                                     Download now
                                 </button>
