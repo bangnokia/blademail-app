@@ -34,7 +34,7 @@ export default function Footer() {
 
                 </div>
                 <p className="mt-8 text-center text-base text-gray-400 flex flex-col space-y-3">
-                    <span>2022 Blade Mail. All rights reserved.</span>
+                    <span>2022 Blade Mail. All rights reserved. 💥 Contact: <a className="text-rose-500" href="mailto:contact@blademail.app">contact@blademail.app</a></span>
                     <a href="https://www.flaticon.com/free-icons/mailbox" className="text-sm" target="_blank" rel="nofollow" title="mailbox icons">Blade mail icons using mailbox icon created by Nikita Golubev - Flaticon</a>
                 </p>
             </div>
