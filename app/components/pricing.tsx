@@ -27,6 +27,7 @@ export default function Pricing() {
                             <FeatureItem>Spam score report</FeatureItem>
                             <FeatureItem>Commercial use</FeatureItem>
                             <FeatureItem>Active on unlimited computers</FeatureItem>
+                            <FeatureItem>Email support</FeatureItem>
                         </ul>
                     </div>
                 </div>
@@ -48,7 +49,7 @@ export default function Pricing() {
                             <FeatureItem>Spam score report</FeatureItem>
                             <FeatureItem>Commercial use</FeatureItem>
                             <FeatureItem>Active on unlimited computers</FeatureItem>
-                            <FeatureItem><span className="text-rose-500">Unlock a speacial icon</span></FeatureItem>
+                            <FeatureItem><span className="text-rose-500">Email support but faster</span></FeatureItem>
                         </ul>
                     </div>
                 </div>
