@@ -1,11 +1,42 @@
-export default function Hero() {
+import { useState } from "react"
+
+export interface Platform {
+    name: string,
+    size: number,
+    browser_download_url: string
+}
+export interface Release {
+    name: string,
+    version: string,
+    description: string,
+    published_at: string,
+    platforms: {
+        "macos": Platform,
+        "win64": Platform,
+        "linux": Platform,
+        "debian": Platform,
+    }
+}
+
+export enum PlatformType {
+    Macos = 'macos',
+    Windows = 'win64',
+    Linux = 'linux',
+    Debian = 'debian'
+};
+
+export default function Hero({ release }: { release: Release }) {
+    const [platform, setPlatform] = useState<PlatformType>(PlatformType.Macos);
+
+    const downloadUrl = release.platforms[platform].browser_download_url;
+
     return (
         <div className="pt-8 overflow-hidden sm:pt-12 lg:relative lg:py-48">
             <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl lg:grid lg:grid-cols-2 lg:gap-24">
                 <div>
                     <div>
                         <img
-                            className="h-24 w-auto border border-yellow-400 rounded-full border-2 hover:border-rose-500 transition-transform transition-colors hover:rotate-12"
+                            className="h-24 w-auto  border-yellow-400 rounded-full border-2 hover:border-rose-500 transform transition hover:rotate-12"
                             src="/images/logo.png"
                             alt="Workflow"
                         />
@@ -45,16 +76,28 @@ export default function Hero() {
                         </div>
                         <form action="#" className="mt-12 sm:max-w-lg sm:w-full sm:flex">
                             <div className="flex items-end flex-wrap mt-4 sm:mt-0 space-x-5">
-                                <button
+                                <select className="border rounded px-5 py-3 bg-white"
+                                    value={platform}
+                                    onChange={(e) => setPlatform(e.target.value as PlatformType)}
+                                >
+                                    <option value={PlatformType.Macos}>macOS</option>
+                                    <option value={PlatformType.Windows}>Windows</option>
+                                    <option value={PlatformType.Linux}>Linux</option>
+                                    <option value={PlatformType.Debian}>Debian</option>
+                                </select>
+                                <a
+                                    role="button"
+                                    target="_blank"
                                     type="submit"
+                                    href={downloadUrl}
                                     className="block w-full transition-colors md:w-auto rounded-md border border-transparent px-5 py-3 bg-rose-500 text-base font-medium text-white shadow hover:bg-rose-600 focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-2 sm:px-10"
                                 >
                                     Download now
-                                </button>
-
-                                <a href="#" className="text-gray-700 hover:text-rose-500 transition-colors">
-                                    Watch intro video
                                 </a>
+
+                                {/* <a href="#" className="text-gray-700 hover:text-rose-500 transition-colors">
+                                    Watch intro video
+                                </a> */}
                             </div>
                         </form>
                         <div className="mt-6">
