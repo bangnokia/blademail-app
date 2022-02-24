@@ -71,7 +71,7 @@ export default function Hero({ release }: { release: Release }) {
                                 Desktop App for Email Testing locally
                             </h1>
                             <p className="mt-6 text-xl text-gray-500">
-                                Never send your email to any free services, Blade Mail will handle testing emails for you.
+                                Never send your email to any free services, Blade Mail will handle emails testing for you.
                             </p>
                         </div>
                         <form action="#" className="mt-12 sm:max-w-lg sm:w-full sm:flex">
