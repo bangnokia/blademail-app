@@ -42,7 +42,7 @@ export default function Hero({ release }: { release: Release }) {
                         />
                     </div>
                     <div className="mt-10">
-                        <div>
+                        <div className="hidden">
                             <a href="#" className="inline-flex space-x-4">
                                 <span className="rounded bg-rose-50 px-2.5 py-1 text-xs font-semibold text-rose-500 tracking-wide uppercase">
                                     What's new
