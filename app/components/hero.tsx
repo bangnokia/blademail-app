@@ -68,7 +68,7 @@ export default function Hero({ release }: { release: Release }) {
                         </div>
                         <div className="mt-6 sm:max-w-xl">
                             <h1 className="text-4xl font-extrabold text-gray-900 tracking-tight sm:text-5xl">
-                                Desktop App for Testing Email locally
+                                Desktop App for Email Testing locally
                             </h1>
                             <p className="mt-6 text-xl text-gray-500">
                                 Never send your email to any free services, Blade Mail will handle testing emails for you.
