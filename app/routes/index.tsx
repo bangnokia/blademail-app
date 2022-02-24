@@ -4,6 +4,7 @@ import Hero from "~/components/hero";
 import Pricing from "~/components/pricing";
 import { useLoaderData } from '@remix-run/react';
 import { LoaderFunction } from "remix";
+import { Scripts } from '@remix-run/react';
 
 // export let loader: LoaderFunction = () => {
 //     return {
@@ -39,9 +40,9 @@ export let loader: LoaderFunction = async () => {
     let response = await fetch("https://lab.daudau.cc/api/apps/blade-mail/latest-release");
 
     return response.json();
-
-    return
 }
+
+export let scripts: ScriptsFunction
 
 export default function Index() {
     const release = useLoaderData();
