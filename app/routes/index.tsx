@@ -42,8 +42,6 @@ export let loader: LoaderFunction = async () => {
     return response.json();
 }
 
-export let scripts: ScriptsFunction
-
 export default function Index() {
     const release = useLoaderData();
     console.log('release', release);
