@@ -44,7 +44,6 @@ export let loader: LoaderFunction = async () => {
 
 export default function Index() {
     const release = useLoaderData();
-    console.log('release', release);
     return (
         <>
             <div className="bg-white">
