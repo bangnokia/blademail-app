@@ -88,7 +88,6 @@ export default function Hero({ release }: { release: Release }) {
                                 <a
                                     role="button"
                                     target="_blank"
-                                    type="submit"
                                     href={downloadUrl}
                                     className="block w-full transition-colors md:w-auto rounded-md border border-transparent px-5 py-3 bg-rose-500 text-base font-medium text-white shadow hover:bg-rose-600 focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-2 sm:px-10"
                                 >
