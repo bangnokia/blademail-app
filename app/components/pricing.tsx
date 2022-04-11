@@ -38,7 +38,7 @@ export default function Pricing() {
                         <h2 className="text-lg leading-6 font-medium text-gray-900">I'm rich</h2>
                         <p className="mt-4 text-sm text-gray-500">All the features and you love this app.</p>
                         <p className="mt-8">
-                            <span className="text-4xl font-extrabold text-gray-900">$15</span>
+                            <span className="text-4xl font-extrabold text-gray-900">$12</span>
                             <span className="text-base font-medium text-gray-500">/year</span>
                         </p>
                         <a href="https://bangnokia.gumroad.com/l/blade-mail?wanted=true" className="mt-8 block w-full bg-rose-500 border border-transparent rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-rose-600 transition-colors">
