@@ -75,8 +75,8 @@ export default function Hero({ release }: { release: Release }) {
                             </p>
                         </div>
                         <form action="#" className="mt-12 sm:max-w-lg sm:w-full sm:flex">
-                            <div className="flex items-end flex-wrap mt-4 sm:mt-0 space-x-5">
-                                <select className="border rounded px-5 py-3 bg-white"
+                            <div className="flex flex-col gap-4 md:flex-row items-end md:flex-wrap mt-4 sm:mt-0 space-x-5">
+                                <select className="w-full md:w-auto border rounded px-5 py-3 bg-white"
                                     value={platform}
                                     onChange={(e) => setPlatform(e.target.value as PlatformType)}
                                 >
