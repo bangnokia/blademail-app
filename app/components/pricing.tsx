@@ -1,5 +1,3 @@
-import { ReactNode } from "react"
-
 export default function Pricing() {
     return (
         <div className="max-w-7xl mx-auto pt-24 px-4 sm:px-6 lg:px-8">
