@@ -16,7 +16,7 @@ export default function Index() {
         <>
             <div className="bg-white">
                 <main>
-                    <Hero release={release} />
+                    <Hero />
 
                     <Features />
 

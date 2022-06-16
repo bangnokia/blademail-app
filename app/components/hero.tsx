@@ -1,35 +1,6 @@
 import { useState } from "react"
 
-export interface Platform {
-    name: string,
-    size: number,
-    browser_download_url: string
-}
-export interface Release {
-    name: string,
-    version: string,
-    description: string,
-    published_at: string,
-    platforms: {
-        "macos": Platform,
-        "win64": Platform,
-        "linux": Platform,
-        "debian": Platform,
-    }
-}
-
-export enum PlatformType {
-    Macos = 'macos',
-    Windows = 'win64',
-    Linux = 'linux',
-    Debian = 'debian'
-};
-
-export default function Hero({ release }: { release: Release }) {
-    const [platform, setPlatform] = useState<PlatformType>(PlatformType.Macos);
-
-    const downloadUrl = release.platforms[platform].browser_download_url;
-
+export default function Hero() {
     return (
         <div className="pt-8 overflow-hidden sm:pt-12 lg:relative lg:py-48">
             <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl lg:grid lg:grid-cols-2 lg:gap-24">
@@ -75,17 +46,8 @@ export default function Hero({ release }: { release: Release }) {
                                 Never send your email to any free services, Blade Mail will handle emails testing for you.
                             </p>
                         </div>
-                        <form action="#" className="mt-12 sm:max-w-lg sm:w-full sm:flex">
+                        <div action="#" className="mt-12 sm:max-w-lg sm:w-full sm:flex">
                             <div className="flex flex-col gap-4 md:flex-row items-end md:flex-wrap mt-4 sm:mt-0 space-x-5">
-                                <select className="w-full md:w-auto border rounded px-5 py-3 bg-white"
-                                    value={platform}
-                                    onChange={(e) => setPlatform(e.target.value as PlatformType)}
-                                >
-                                    <option value={PlatformType.Macos}>macOS</option>
-                                    <option value={PlatformType.Windows}>Windows</option>
-                                    <option value={PlatformType.Linux}>Linux</option>
-                                    <option value={PlatformType.Debian}>Debian</option>
-                                </select>
                                 <a
                                     role="button"
                                     href="https://bangnokia.gumroad.com/l/blade-mail"
@@ -98,7 +60,8 @@ export default function Hero({ release }: { release: Release }) {
                                     Watch intro video
                                 </a> */}
                             </div>
-                        </form>
+                        </div>
+                        <p className="block mt-4 italic text-sky-400">Working on MacOS, Windows, Linux</p>
                         <div className="mt-6">
                             <div className="inline-flex items-center divide-x divide-gray-300">
                                 <div className="flex-shrink-0 flex pr-5">
