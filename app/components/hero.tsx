@@ -34,12 +34,13 @@ export default function Hero({ release }: { release: Release }) {
         <div className="pt-8 overflow-hidden sm:pt-12 lg:relative lg:py-48">
             <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl lg:grid lg:grid-cols-2 lg:gap-24">
                 <div>
-                    <div>
+                    <div className="flex gap-8 items-center">
                         <img
                             className="h-24 w-auto  border-yellow-400 rounded-full border-2 hover:border-rose-500 transform transition hover:rotate-12"
                             src="/images/logo.png"
-                            alt="Workflow"
+                            alt="Blade Mail"
                         />
+                        <h2 className="font-extrabold text-rose-500 text-4xl lg:text-5xl">Blade Mail</h2>
                     </div>
                     <div className="mt-10">
                         <div className="hidden">
@@ -48,7 +49,7 @@ export default function Hero({ release }: { release: Release }) {
                                     What's new
                                 </span>
                                 <span className="inline-flex items-center text-sm font-medium text-rose-500 space-x-1">
-                                    <span>Just shipped version 0.1.0</span>
+                                    <span>Just shipped version 1.0.0</span>
                                     <svg
                                         className="h-5 w-5"
                                         x-description="Heroicon name: solid/chevron-right"

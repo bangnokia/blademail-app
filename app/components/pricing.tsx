@@ -41,8 +41,8 @@ export default function Pricing() {
                             <span className="text-4xl font-extrabold text-gray-900">$12</span>
                             <span className="text-base font-medium text-gray-500">/year</span>
                         </p>
-                        <a href="https://bangnokia.gumroad.com/l/blade-mail?wanted=true" className="mt-8 block w-full bg-rose-500 border border-transparent rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-rose-600 transition-colors">
-                            Buy via Gumroad
+                        <a href="https://bangnokia.gumroad.com/l/blade-mail" className="mt-8 block w-full bg-rose-500 border border-transparent rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-rose-600 transition-colors">
+                            Buy on Gumroad
                         </a>
                     </div>
                     <div className="pt-6 pb-8 px-6">
