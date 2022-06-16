@@ -14,7 +14,7 @@ export default function Pricing() {
                             <span className="text-4xl font-extrabold text-gray-900">$0</span>
                             <span className="text-base font-medium text-gray-500">/year</span>
                         </p>
-                        <a href="#" className="mt-8 block w-full bg-gray-500 border border-transparent rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-rose-500 transition-colors">
+                        <a href="https://bangnokia.gumroad.com/l/blade-mail" className="mt-8 block w-full bg-gray-500 border border-transparent rounded-md py-2 text-sm font-semibold text-white text-center hover:bg-rose-500 transition-colors">
                             Download
                         </a>
                     </div>

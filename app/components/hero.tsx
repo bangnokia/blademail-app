@@ -88,8 +88,7 @@ export default function Hero({ release }: { release: Release }) {
                                 </select>
                                 <a
                                     role="button"
-                                    target="_blank"
-                                    href={downloadUrl}
+                                    href="https://bangnokia.gumroad.com/l/blade-mail"
                                     className="block w-full transition-colors md:w-auto rounded-md border border-transparent px-5 py-3 bg-rose-500 text-base font-medium text-white shadow hover:bg-rose-600 focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-2 sm:px-10"
                                 >
                                     Download now
