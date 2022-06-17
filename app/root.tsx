@@ -4,7 +4,7 @@ import type { MetaFunction } from "remix";
 import Footer from "./components/footer";
 
 export const meta: MetaFunction = () => {
-    const description = "Blade mail is a lightweight and blazingly fast desktop app for emails testing locally";
+    const description = "Blade mail is a lightweight and blazingly fast desktop app for emails testing locally, Never send your test emails to client";
     const title = "Blade Mail - Desktop App for Testing Emails locally"
 
     return {
