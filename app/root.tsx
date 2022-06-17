@@ -6,17 +6,24 @@ import Footer from "./components/footer";
 export const meta: MetaFunction = () => {
     const description = "Blade mail is a lightweight and blazingly fast desktop app for emails testing locally, Never send your test emails to client";
     const title = "Blade Mail - Desktop App for Testing Emails locally"
+    const image = "https://blademail.app/images/og_image.png";
 
     return {
         title: title,
         description: description,
+        "twitter:domain": "blademail.app",
+        "twitter:url": "https://blademail.app",
         "twitter:card": "summary_large_image",
-        "twitter:author": "@bangnokia",
+        "twitter:title": title,
         "twitter:description": description,
+        "twitter:author": "@bangnokia",
         "twitter:site": "@blademail_app",
+        "twitter:image": image,
+        "og:url": "https://blademail.app",
+        "og:type": "website",
         "og:title": title,
         "og:description": description,
-        "og:image": "https://blademail.app/images/blade-mail-screenshot.png"
+        "og:image": image
     };
 };
 
