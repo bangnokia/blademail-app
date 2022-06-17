@@ -4,7 +4,20 @@ import type { MetaFunction } from "remix";
 import Footer from "./components/footer";
 
 export const meta: MetaFunction = () => {
-    return { title: "Desktop App for Testing Email locally - Blade Mail" };
+    const description = "Blade mail is a lightweight and blazingly fast desktop app for emails testing locally";
+    const title = "Blade Mail - Desktop App for Testing Emails locally"
+
+    return {
+        title: title,
+        description: description,
+        "twitter:card": "summary_large_image",
+        "twitter:author": "@bangnokia",
+        "twitter:description": description,
+        "twitter:site": "@blademail_app",
+        "og:title": title,
+        "og:description": description,
+        "og:image": "https://blademail.app/images/blade-mail-screenshot.png"
+    };
 };
 
 export function links() {
