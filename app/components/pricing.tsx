@@ -23,9 +23,9 @@ export default function Pricing() {
                         <ul className="mt-6 space-y-4">
                             <FeatureItem>Simple email preview</FeatureItem>
                             <FeatureItem>Catching all local emails</FeatureItem>
-                            <FeatureItem>Dead links checker (wip)</FeatureItem>
-                            <FeatureItem>Spam score report (wip)</FeatureItem>
-                            <FeatureItem>Commercial use</FeatureItem>
+                            <FeatureItem>Dead links checker</FeatureItem>
+                            <FeatureItem>Spam score report</FeatureItem>
+                            <FeatureItem><s>Commercial use</s></FeatureItem>
                             <FeatureItem>Active on unlimited computers</FeatureItem>
                             <FeatureItem>Email support</FeatureItem>
                         </ul>
@@ -48,8 +48,8 @@ export default function Pricing() {
                         <ul className="mt-6 space-y-4">
                             <FeatureItem>Simple email preview</FeatureItem>
                             <FeatureItem>Catching all local emails</FeatureItem>
-                            <FeatureItem>Dead links checker (wip)</FeatureItem>
-                            <FeatureItem>Spam score report (wip)</FeatureItem>
+                            <FeatureItem>Dead links checker</FeatureItem>
+                            <FeatureItem>Spam score report</FeatureItem>
                             <FeatureItem>Commercial use</FeatureItem>
                             <FeatureItem>Active on unlimited computers</FeatureItem>
                             <FeatureItem><span className="text-rose-500">Email support but faster</span></FeatureItem>
