@@ -4,7 +4,7 @@ export default function Footer() {
             <div className="mx-auto max-w-md py-12 px-4 overflow-hidden sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
                 <nav className="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
                     <div className="px-5 py-2">
-                        <a href="#" className="text-base text-gray-400 hover:text-gray-300">
+                        <a href="https://daudau.cc/about" target="_blank" className="text-base text-gray-400 hover:text-gray-300">
                             About
                         </a>
                     </div>
