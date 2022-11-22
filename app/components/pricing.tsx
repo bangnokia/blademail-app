@@ -53,6 +53,7 @@ export default function Pricing() {
                             <FeatureItem>Commercial use</FeatureItem>
                             <FeatureItem>Active on unlimited computers</FeatureItem>
                             <FeatureItem><span className="text-rose-500">Email support but faster</span></FeatureItem>
+                            <FeatureItem><span className="text-rose-500">Preview email in the browser</span></FeatureItem>
                         </ul>
                     </div>
                 </div>
