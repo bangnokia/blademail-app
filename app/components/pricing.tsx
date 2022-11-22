@@ -5,9 +5,9 @@ export default function Pricing() {
                 <h2 id="pricing" className="text-5xl font-extrabold text-gray-900 sm:text-center">Pricing Plans</h2>
                 <p className="mt-5 text-xl text-gray-500 sm:text-center">Start using Blade Mail for free. I'm rich plan unlocks additional features.</p>
             </div>
-            <div className="mt-12 space-y-4 sm:mt-16 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-6 lg:max-w-3xl lg:mx-auto">
-                <div className="border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-200">
-                    <div className="p-6">
+            <div className="mt-12 space-y-4 sm:mt-16 sm:space-y-0 sm:grid sm:grid-cols-1 sm:gap-6 lg:max-w-xl lg:mx-auto">
+                {/* <div className="border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-200">
+                     <div className="p-6">
                         <h2 className="text-lg leading-6 font-medium text-gray-900">Hobby</h2>
                         <p className="mt-4 text-sm text-gray-500">All the basics features for testing emails.</p>
                         <p className="mt-8">
@@ -30,7 +30,7 @@ export default function Pricing() {
                             <FeatureItem>Email support</FeatureItem>
                         </ul>
                     </div>
-                </div>
+                </div> */}
                 <div className="border border-rose-500 rounded-lg shadow-lg divide-y divide-gray-200">
                     <div className="p-6">
                         <h2 className="text-lg leading-6 font-medium text-gray-900">I'm rich</h2>
