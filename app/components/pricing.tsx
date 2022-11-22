@@ -2,8 +2,8 @@ export default function Pricing() {
     return (
         <div className="max-w-7xl mx-auto pt-24 px-4 sm:px-6 lg:px-8">
             <div className="sm:flex sm:flex-col sm:align-center">
-                <h2 id="pricing" className="text-5xl font-extrabold text-gray-900 sm:text-center">Pricing Plans</h2>
-                <p className="mt-5 text-xl text-gray-500 sm:text-center">Start using Blade Mail for free. I'm rich plan unlocks additional features.</p>
+                <h2 id="pricing" className="text-5xl font-extrabold text-gray-900 sm:text-center">Pricing Plan</h2>
+                {/* <p className="mt-5 text-xl text-gray-500 sm:text-center">Start using Blade Mail for free. I'm rich plan unlocks additional features.</p> */}
             </div>
             <div className="mt-12 space-y-4 sm:mt-16 sm:space-y-0 sm:grid sm:grid-cols-1 sm:gap-6 lg:max-w-xl lg:mx-auto">
                 {/* <div className="border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-200">
