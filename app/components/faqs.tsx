@@ -10,7 +10,7 @@ const faqs: Faq[] = [
   },
   {
     question: "Can I get a refund after purchase?",
-    answer: "Yes, you can get a refund within 30 days after purchase. Please contact us at contact@blademail.app",
+    answer: "Yes, you can get a refund within 14 days after purchase. Please contact us at contact@blademail.app",
   },
   {
     question: "Can I use Blade Mail on many machines?",
