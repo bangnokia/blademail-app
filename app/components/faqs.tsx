@@ -6,7 +6,7 @@ type Faq = {
 const faqs: Faq[] = [
   {
     question: "What happens if I do not renew after one year?",
-    answer: "You can still use the app for free but you won't get any support from us.",
+    answer: "You can still use the app for free but you won't get any update from us.",
   },
   {
     question: "Can I get a refund after purchase?",
