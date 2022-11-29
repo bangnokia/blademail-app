@@ -7,7 +7,6 @@ import Pricing from "~/components/pricing";
 export default function Index() {
     return (
         <div className="bg-white">
-            <BlackFriday />
             <main>
                 <Hero />
                 <Features />
