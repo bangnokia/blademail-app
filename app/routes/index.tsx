@@ -18,6 +18,7 @@ export default function Index() {
     return (
         <div className="bg-white">
             <main>
+                <BlackFriday />
                 <Hero release={release} />
                 <Features />
                 <Pricing />
