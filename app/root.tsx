@@ -50,17 +50,19 @@ export default function App() {
                 <Scripts />
                 {process.env.NODE_ENV === "development" && <LiveReload />}
 
-                {`
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-LPQD4C2DSN"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-LPQD4C2DSN');
-</script>
-                `}
+                {(
+                    <>
+                        <script async src="https://www.googletagmanager.com/gtag/js?id=G-LPQD4C2DSN"></script>
+                        <script dangerouslySetInnerHTML={{
+                            __html: `
+                                window.dataLayer = window.dataLayer || [];
+                                function gtag(){dataLayer.push(arguments);}
+                                gtag('js', new Date());
+                                gtag('config', 'G-LPQD4C2DSN');
+                            `
+                        }}/>
+                    </>
+                )}
             </body>
         </html>
     );
