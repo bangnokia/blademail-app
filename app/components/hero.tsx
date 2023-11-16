@@ -105,7 +105,7 @@ export default function Hero({ release }: { release: Release }) {
                 </div>
                 <a
                   role="button"
-                  href="https://bangnokia.gumroad.com/l/blade-mail"
+                  href="https://bangnokia.gumroad.com/l/blade-mail/BLACKFRIDAY"
                   className="block w-full rounded-md border border-transparent bg-rose-500 px-5 py-3 text-center text-base font-medium text-white shadow transition-colors hover:bg-rose-600 focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-2 sm:px-10 md:w-auto"
                 >
                   Buy now
